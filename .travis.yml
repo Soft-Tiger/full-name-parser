@@ -16,6 +16,4 @@ before_script:
 script:
   - mkdir -p build/logs
   - vendor/bin/phpunit --configuration phpunit.xml --coverage-text --coverage-clover build/logs/clover.xml
-
-after_success:
-  - travis_retry php vendor/bin/php-coveralls -v
+  - php vendor/bin/php-coveralls -v
