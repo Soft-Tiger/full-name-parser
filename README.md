@@ -8,7 +8,6 @@ even if given some unparsable garbage entries.
 
 FullNameParser::parse():
 
-
 1. accepts a string containing a person's full name, in any format,
 2. analyzes and attempts to detect the format of that name,
 3. (if possible) parses the name into its component parts, and
