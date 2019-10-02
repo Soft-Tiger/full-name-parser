@@ -25,7 +25,8 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=4.8.28 <5"
+        "phpunit/phpunit": ">=4.8.28 <5",
+        "php-coveralls/php-coveralls": "^2.1"
     },
     "autoload": {
         "psr-4": {

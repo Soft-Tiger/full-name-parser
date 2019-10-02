@@ -1,0 +1,19 @@
+# see http://about.travis-ci.org/docs/user/languages/php/ for more hints
+language: php
+
+# list any PHP version you want to test against
+php:
+  # using major version aliases
+
+  # aliased to a recent 7.x version
+  - 7.1.0
+
+sudo: false
+
+before_script:
+  - composer install --no-progress
+
+script:
+  - mkdir -p coverage
+  - vendor/bin/phpunit --configuration phpunit.xml
+  - php vendor/bin/php-coveralls -v -n
