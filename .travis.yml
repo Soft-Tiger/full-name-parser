@@ -15,5 +15,5 @@ before_script:
 
 script:
   - mkdir -p coverage
-  - vendor/bin/phpunit --configuration phpunit.xml --coverage-text --coverage-clover build/logs/clover.xml
+  - vendor/bin/phpunit --configuration phpunit.xml
   - php vendor/bin/php-coveralls -v -n
