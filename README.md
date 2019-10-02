@@ -1,5 +1,9 @@
 # full-name-parser
 
+[![coverage report](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)
+[![codecov](https://codecov.io/gh/Deyter/full-name-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/Deyter/full-name-parser)
+[![License](https://poser.pugx.org/adci/full-name-parser/license)](https://packagist.org/packages/adci/full-name-parser)  
+
 ## Description
 
 FullNameParser is designed to parse large batches of full names in multiple
