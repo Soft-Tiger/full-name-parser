@@ -20,7 +20,7 @@ before_script:
 
 script:
   - mkdir -p build/logs
-  - vendor/bin/phpunit --configuration phpunit.xml --coverage-text
+  - vendor/bin/phpunit --configuration phpunit.xml --coverage-clover coverage.xml
 
 after_success:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - ./cc-test-reporter after-build -t "$(< coverage.xml)" -r $CODECLIMATE_REPORTER_ID
