@@ -20,7 +20,7 @@ before_script:
 
 script:
   - mkdir -p build/logs
-  - vendor/bin/phpunit --configuration phpunit.xml --coverage-clover coverage.xml
+  - vendor/bin/phpunit --configuration phpunit.xml --coverage-clover clover.xml
 
 after_success:
-  - ./cc-test-reporter after-build -t clover "$(< coverage.xml)" -r $CODECLIMATE_REPORTER_ID
+  - ./cc-test-reporter after-build -r $CODECLIMATE_REPORTER_ID
