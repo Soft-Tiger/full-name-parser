@@ -23,4 +23,4 @@ script:
   - vendor/bin/phpunit --configuration phpunit.xml --coverage-clover coverage.xml
 
 after_success:
-  - ./cc-test-reporter after-build -t "$(< coverage.xml)" -r $CODECLIMATE_REPORTER_ID
+  - ./cc-test-reporter after-build -t clover "$(< coverage.xml)" -r $CODECLIMATE_REPORTER_ID
