@@ -1,7 +1,7 @@
 # full-name-parser
 
-[![coverage report](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)
-[![codecov](https://codecov.io/gh/Deyter/full-name-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/Deyter/full-name-parser)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/24b10da4a905a19f23ce/test_coverage)](https://codeclimate.com/github/Deyter/full-name-parser/test_coverage)
+[![Build status](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)](https://travis-ci.org/Deyter/full-name-parser.svg?branch=master)
 [![License](https://poser.pugx.org/adci/full-name-parser/license)](https://packagist.org/packages/adci/full-name-parser)  
 
 ## Description
